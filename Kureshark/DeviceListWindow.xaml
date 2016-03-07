@@ -1,0 +1,30 @@
+﻿<Window x:Class="Kureshark.DeviceListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:Kureshark"
+        Title="DeviceListWindow" Height="300" Width="1000" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <ListView SelectionMode="Single" Margin="10,10,10,5" Name="deviceList" SelectionChanged="deviceList_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Header="{loc:LR Device}" DisplayMemberBinding="{Binding Name}"/>
+                        <GridViewColumn Header="{loc:LR Description}" DisplayMemberBinding="{Binding Description}"/>
+                        <GridViewColumn Header="{loc:LR IP}" DisplayMemberBinding="{Binding Ip}"/>
+                        <GridViewColumn Header="{loc:LR GUID}" DisplayMemberBinding="{Binding Guid}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Right" Margin="0,5,10,5" Orientation="Horizontal">
+            <Button Content="{loc:LR Start}" Name="startButton" Width="80" Margin="5,0" Click="startButton_Click" IsEnabled="False"/>
+            <Button Content="{loc:LR Stop}" Name="stopButton" Width="80" Margin="5,0" IsEnabled="False"/>
+            <Button Content="{loc:LR Options}" Name="optionsButton" Width="80" Margin="5,0" Click="optionsButton_Click"/>
+            <Button Content="{loc:LR Close}" Name="closeButton" Width="80" Margin="5,0,0,0" Click="closeButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Kureshark.Model.Payload" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAABAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Payload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.DataLink.FramePayload" Collapsed="true">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataLink\FramePayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Network.PacketPayload" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\PacketPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Transport.DatagramPayload" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transport\DatagramPayload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Network.Arp" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAACAAAEAAAACAAAAQAAEwACAAAAA=</HashCode>
+      <FileName>Network\Arp\Arp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Network.Ipv4" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAAABAABIAAIAAAAACAQAABAAAAABEAAAAAIAAAAAAQ=</HashCode>
+      <FileName>Network\IpV4\IpV4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Transport.Tcp" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIABAAAAAAAAAAAAgAQAgBAAECAAAAAAAEEIAAAAAA=</HashCode>
+      <FileName>Transport\Tcp\Tcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kureshark.Model.Transport.Udp" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAgBAAECAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transport\Udp\Udp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
